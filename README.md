@@ -9,7 +9,7 @@
 ### 주요 기능 시연
 
 #### 1. 직관적인 설정 인터페이스
-![앱 설정 인터페이스](react-stt-app/images/app_settings_interface.png)
+![앱 설정 인터페이스](react-stt-app/images/realtime_translation_results.png)
 
 - Whisper 모델 크기 선택 (tiny부터 large까지)
 - 입력/출력 언어 선택 (한국어, 영어, 일본어, 중국어 지원)
@@ -18,7 +18,7 @@
 - 번역 모델 선택
 
 #### 2. 실시간 번역 결과
-![실시간 번역 결과](react-stt-app/images/realtime_translation_results.png)
+![실시간 번역 결과](react-stt-app/images/app_settings_interface.png)
 
 - 실시간 음성 인식 결과 표시
 - 즉시 번역된 텍스트 확인
