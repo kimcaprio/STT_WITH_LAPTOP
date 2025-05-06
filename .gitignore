@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv
+.envrc
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 기타
+*.log
+react-stt-app/frontend/node_modules/
+react-stt-app/backend/__pycache__/

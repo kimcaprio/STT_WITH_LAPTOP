@@ -1,0 +1,62 @@
+.app-container {
+  min-height: 100vh;
+}
+
+.app-title {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+/* 애니메이션 효과 */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.is-recording {
+  animation: pulse 2s infinite;
+}
+
+.audio-level-bar {
+  height: 8px;
+  background-color: #f3f4f6;
+  border-radius: 4px;
+  margin-top: 8px;
+  overflow: hidden;
+}
+
+.audio-level-fill {
+  height: 100%;
+  background: linear-gradient(to right, #4ade80, #3b82f6);
+  transition: width 0.2s ease-in-out;
+}
+
+.MuiPaper-root {
+  transition: all 0.3s ease;
+}
+
+.MuiPaper-root:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* 버튼 스타일 향상 */
+.MuiButton-containedPrimary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+  transition: all 0.3s ease !important;
+}
+
+.MuiButton-containedPrimary:hover {
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4) !important;
+  transform: translateY(-2px) !important;
+} 
